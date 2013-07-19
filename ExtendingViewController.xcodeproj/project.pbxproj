@@ -19,6 +19,9 @@
 		5ABF790517997C0A00B843D3 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF790317997C0A00B843D3 /* MainStoryboard_iPhone.storyboard */; };
 		5ABF790817997C0A00B843D3 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF790617997C0A00B843D3 /* MainStoryboard_iPad.storyboard */; };
 		5ABF790B17997C0A00B843D3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF790A17997C0A00B843D3 /* ViewController.m */; };
+		5ABF791317997C6300B843D3 /* ParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF791217997C6300B843D3 /* ParentViewController.m */; };
+		5ABF791617997C7500B843D3 /* ChildViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF791517997C7500B843D3 /* ChildViewController.m */; };
+		5ABF791917997E0F00B843D3 /* ChildViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF791817997E0E00B843D3 /* ChildViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,12 @@
 		5ABF790717997C0A00B843D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		5ABF790917997C0A00B843D3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5ABF790A17997C0A00B843D3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5ABF791117997C6300B843D3 /* ParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParentViewController.h; sourceTree = "<group>"; };
+		5ABF791217997C6300B843D3 /* ParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParentViewController.m; sourceTree = "<group>"; };
+		5ABF791417997C7500B843D3 /* ChildViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController.h; sourceTree = "<group>"; };
+		5ABF791517997C7500B843D3 /* ChildViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController.m; sourceTree = "<group>"; };
+		5ABF791717997E0E00B843D3 /* ChildViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChildViewController2.h; sourceTree = "<group>"; };
+		5ABF791817997E0E00B843D3 /* ChildViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChildViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +101,12 @@
 				5ABF790917997C0A00B843D3 /* ViewController.h */,
 				5ABF790A17997C0A00B843D3 /* ViewController.m */,
 				5ABF78F217997C0A00B843D3 /* Supporting Files */,
+				5ABF791117997C6300B843D3 /* ParentViewController.h */,
+				5ABF791217997C6300B843D3 /* ParentViewController.m */,
+				5ABF791417997C7500B843D3 /* ChildViewController.h */,
+				5ABF791517997C7500B843D3 /* ChildViewController.m */,
+				5ABF791717997E0E00B843D3 /* ChildViewController2.h */,
+				5ABF791817997E0E00B843D3 /* ChildViewController2.m */,
 			);
 			path = ExtendingViewController;
 			sourceTree = "<group>";
@@ -180,6 +195,9 @@
 				5ABF78F817997C0A00B843D3 /* main.m in Sources */,
 				5ABF78FC17997C0A00B843D3 /* AppDelegate.m in Sources */,
 				5ABF790B17997C0A00B843D3 /* ViewController.m in Sources */,
+				5ABF791317997C6300B843D3 /* ParentViewController.m in Sources */,
+				5ABF791617997C7500B843D3 /* ChildViewController.m in Sources */,
+				5ABF791917997E0F00B843D3 /* ChildViewController2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
